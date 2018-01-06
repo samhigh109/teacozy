@@ -1,0 +1,135 @@
+/*universal content */
+
+body{
+  background-color: black;
+  color: seashell;
+  font-family: "Helvetica";
+  font-size: 22px;
+  opacity: 0.9;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+
+header{
+  margin-top: 0;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  padding-left: 10px;
+  z-index: 1
+}
+
+header nav{
+  padding-right: 20px;
+}
+
+a{
+  color: seashell;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Mission image*/
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content .image-content{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.content .mission-content{
+  background-color: black;
+  width: 1200px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* content */
+.month{
+  width: 1000px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.specials{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  align-content: center;
+}
+
+.content img{
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+
+/*locations*/
+
+#locations{
+  display: inline-block;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+}
+
+#locations .image-square {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+  text-align: center;
+  align-content: center;
+  flex-grow: 1;
+  margin-right: 40px;
+  padding-top: 15px;
+}
+
+
+/* footer */
+
+.info{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
